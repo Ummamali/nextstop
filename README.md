@@ -1,8 +1,4 @@
-# React + Vite
+# NextStop Destination Selector  
+## A modern React App to Choose and Track Your Favorite Destinations 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+NextStop is a React app that allows users to browse and select destinations they want to visit. When a destination is selected, it is added to a separate section for easy tracking. Users can manage their selections dynamically, making it simple to plan future trips. The app provides an interactive and intuitive interface for a seamless experience. Built with React, it ensures smooth state management and efficient rendering.  
