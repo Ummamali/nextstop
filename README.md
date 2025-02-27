@@ -31,3 +31,23 @@ This modern web application is built with React, ensuring a fast and responsive 
 - **LocalStorage**  
   - Stores selected destinations persistently across sessions.  
   - Ensures users don’t lose their data even after refreshing the page.  
+
+## Features  
+
+- **Select Destinations**  
+  - Users can browse a list of destinations and click to select their favorites.  
+  - Selected destinations are added to a separate section for easy tracking.  
+  - The selection persists using LocalStorage, so choices remain even after a page refresh.  
+
+- **Deselect Destinations**  
+  - Users can remove a selected destination with a single click.  
+  - The deselected destination disappears from the selected section instantly.  
+  - Changes are saved in LocalStorage, ensuring a consistent experience across sessions.  
+
+- **Modern UI & Responsive Design**  
+  - Built with Tailwind CSS for a sleek and user-friendly interface.  
+  - Fully responsive layout ensures smooth usability on all devices.  
+
+- **Fast & Efficient Performance**  
+  - Developed with React and Vite for optimal speed and performance.  
+  - Instant updates with seamless state management for a smooth user experience.  
