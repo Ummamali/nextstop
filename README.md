@@ -5,6 +5,8 @@ NextStop is a React app that allows users to browse and select destinations they
 
 This modern web application is built with React, ensuring a fast and responsive user experience. It utilizes LocalStorage to remember selected destinations, allowing users to revisit their list even after refreshing the page. With a sleek design and smooth interactions, the app offers a seamless way to plan and track travel goals.  
 
+<img src="./preview.jpg" alt="Project Preview"/>
+
 ## Technologies Used  
 
 - **HTML**  
