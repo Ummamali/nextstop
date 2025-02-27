@@ -34,20 +34,45 @@ This modern web application is built with React, ensuring a fast and responsive 
 
 ## Features  
 
-- **Select Destinations**  
+### 1. **Select Destinations**  
   - Users can browse a list of destinations and click to select their favorites.  
   - Selected destinations are added to a separate section for easy tracking.  
   - The selection persists using LocalStorage, so choices remain even after a page refresh.  
 
-- **Deselect Destinations**  
+### 2. **Deselect Destinations**  
   - Users can remove a selected destination with a single click.  
   - The deselected destination disappears from the selected section instantly.  
   - Changes are saved in LocalStorage, ensuring a consistent experience across sessions.  
 
-- **Modern UI & Responsive Design**  
+### 3. **Modern UI & Responsive Design**  
   - Built with Tailwind CSS for a sleek and user-friendly interface.  
   - Fully responsive layout ensures smooth usability on all devices.  
 
-- **Fast & Efficient Performance**  
+### 4. **Fast & Efficient Performance**  
   - Developed with React and Vite for optimal speed and performance.  
   - Instant updates with seamless state management for a smooth user experience.  
+
+## Installation  
+
+Follow these steps to set up and run the Project Manager app locally (Make sure you have Node.js and npm installed before running the commands):  
+
+1. **Clone the repository:**  
+
+    ```sh
+   git clone https://github.com/Ummamali/nextstop.git
+   cd nextstop
+
+3. **Install dependencies:**
+
+    ```sh
+    npm install
+    
+5. **Start the development server:**
+
+   ```sh
+     npm run dev
+
+## License  
+
+This project is licensed under the **MIT License**. For more details, visit [MIT License](https://opensource.org/licenses/MIT).  
+
