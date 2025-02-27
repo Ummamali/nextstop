@@ -5,7 +5,7 @@ export default function PlaceCard({ placeId, place, onclick }) {
   const [leaving, setLeaving] = useState(false);
   return (
     <div
-      className={`bg-green-500 h-[290px] rounded-sm shadow-sm overflow-hidden relative cursor-pointer fade-in ${
+      className={`bg-green-500 h-[290px] rounded shadow-sm overflow-hidden relative cursor-pointer fade-in ${
         leaving ? "fade-out" : ""
       }`}
       style={{ background: `url("${place.image}") center center/cover` }}

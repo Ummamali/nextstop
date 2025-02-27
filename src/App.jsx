@@ -2,9 +2,13 @@ import React, { useState } from "react";
 import Header from "./Components/Header";
 import SelectedPlaces from "./Components/SelectedPlaces";
 import AvailablePlaces from "./Components/AvailablePlaces";
+import useLocalStorage from "./hooks/useLocalStorage";
 
 export default function App() {
-  const [selections, setSelections] = useState([]);
+  const [selections, setSelections] = useLocalStorage(
+    [],
+    "nextstop_selections"
+  );
 
   function selectPlace(placeId) {
     setSelections((prev) => [...prev, placeId]);
