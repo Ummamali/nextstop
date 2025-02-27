@@ -29,7 +29,12 @@ This modern web application is built with React, ensuring a fast and responsive 
 
 - **LocalStorage**  
   - Stores selected destinations persistently across sessions.  
-  - Ensures users don’t lose their data even after refreshing the page.  
+  - Ensures users don’t lose their data even after refreshing the page.
+
+- **Geolocation**  
+  - Retrieves the user’s current location to suggest nearby destinations.  
+  - Enhances user experience by providing location-based recommendations.  
+
 
 ## Features  
 
@@ -50,6 +55,12 @@ This modern web application is built with React, ensuring a fast and responsive 
 ### 4. **Fast & Efficient Performance**  
   - Developed with React and Vite for optimal speed and performance.  
   - Instant updates with seamless state management for a smooth user experience.  
+
+### 5. **Show Current Location**  
+  - The application detects and displays the user’s current location.  
+  - Helps users see their position relative to selected destinations.  
+  - Uses Geolocation API to fetch real-time location updates.  
+
 
 ## Installation  
 
